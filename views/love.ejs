@@ -1,0 +1,26 @@
+<!-- <%= %> EJS TAGS -->
+<!-- While doing any logic statement don't use EJS tage with = sign simply use <%  %> -->
+<!-- Equal sign returns the value and stick it into the HTML 
+And No Equal sign will simply run the code -->
+
+<%- include("partials/header") %>
+
+<h1>
+	You fell in love with: <%= thingVar.toUpperCase() %>
+</h1>
+
+<% if(thingVar.toLowerCase() === "rusty"){ %>
+	<p>
+		GOOD CHOICE! RUSTY IS THE BEST!
+	</p>
+<% } else { %>
+	<p>
+		Bad choice! You should have said RUSTY!
+	</p>
+<% } %>
+
+<p>
+	P.S. This is love.ejs file
+</p>
+
+<%- include("partials/footer") %>
