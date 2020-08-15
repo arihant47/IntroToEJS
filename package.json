@@ -1,7 +1,7 @@
 {
   "name": "ejs-demo-package",
   "version": "1.0.0",
-  "description": "EJS Demo package.json",
+  "description": "EJS Demo",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
